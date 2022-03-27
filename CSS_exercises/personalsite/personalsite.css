@@ -11,3 +11,8 @@ hr {
 img{
     border-radius: 50%;
 }
+h1,h3 {color: rgb(20, 20, 138);
+
+}
+ul li {color: rgb(6, 6, 58);}
+p strong{color: rgb(53, 21, 83); font-size: 0.37cm;}
