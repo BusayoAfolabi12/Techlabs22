@@ -1,2 +1,8 @@
-div[id="board"] {background-color: brown;}
+div:nth-child(even) {
+    background-color:grey;
+}
+
+div:nth-child(odd) {
+    background-color:black;
+}
   
