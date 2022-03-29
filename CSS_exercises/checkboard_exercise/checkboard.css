@@ -1,8 +1,7 @@
 div:nth-child(even) {
-    background-color:grey;
+    background-color:red;
 }
 
 div:nth-child(odd) {
     background-color:black;
 }
-  
