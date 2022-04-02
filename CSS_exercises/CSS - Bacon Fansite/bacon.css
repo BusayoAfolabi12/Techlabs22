@@ -3,7 +3,7 @@ h1 {
     font-size: 150;
 }
 
-img {background-color: red;}
+img {background-color: rgb(199, 34, 34);}
 
 .bacon {background-color: green;}
-.broccoli {background-color: blueviolet; width: 160px;}
+.broccoli {background-color: rgb(174, 138, 207); width: 160px;}
