@@ -36,13 +36,13 @@ main {background-color: rgb(243, 237, 230);  height: 200%;
 #bg-image {width: 20%;}
 #bg-img {width: 20%;}
 
-#img_1 {width: 22%; height: 85%; border-radius: 5%;}
+#img_1 {width: 22%; height: 85%; border-radius: 5%; object-fit: cover;}
 #img_2 {width: 22%; height: 85%; border-radius: 5%;
-            margin-left: 2%; margin-top: 3.3%;}
+            margin-left: 2%; margin-top: 3.3%; object-fit: cover;}
 #img_3 {width: 22%; height: 85%; border-radius: 5%;
-            margin-left: 2%;}
+            margin-left: 2%;object-fit: cover;}
 #img_4 {width: 22%; height: 85%; border-radius: 5%; 
-            margin-left: 2%;}
+            margin-left: 2%; object-fit: cover;}
 #img_9 {width: 100%;}
 #img_10 {width: 100%;}
     
