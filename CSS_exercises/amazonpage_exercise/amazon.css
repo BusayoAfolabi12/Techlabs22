@@ -13,8 +13,8 @@ section {background-color: #22333b; width: 40%;}
     /*               HEADER CSS                   */
 
 
-header {}
-#logo_top {background-color: #22333b; }
+
+/*{background-color: #22333b; }*/
 
 #header_text {color: white;
             background-color: #415a77; 
@@ -31,20 +31,20 @@ main {background-color: rgb(243, 237, 230);  height: 200%;
 
 .section1_images {text-align: center; 
     background-color: white; 
-    height: 220px;}
+    height: 220px; width: 22%; height: 85%; border-radius: 5%; object-fit: cover;}
     
 #bg-image {width: 20%;}
 #bg-img {width: 20%;}
 
-#img_1 {width: 22%; height: 85%; border-radius: 5%; object-fit: cover;}
+/*#img_1 {width: 22%; height: 85%; border-radius: 5%; object-fit: cover;}
 #img_2 {width: 22%; height: 85%; border-radius: 5%;
             margin-left: 2%; margin-top: 3.3%; object-fit: cover;}
 #img_3 {width: 22%; height: 85%; border-radius: 5%;
             margin-left: 2%;object-fit: cover;}
 #img_4 {width: 22%; height: 85%; border-radius: 5%; 
             margin-left: 2%; object-fit: cover;}
-#img_9 {width: 100%;}
-#img_10 {width: 100%;}
+.base_image {width: 100%;}*/
+
     
 
 
