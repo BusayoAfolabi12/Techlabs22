@@ -32,12 +32,12 @@ main p {color: white;}
 }
 .background_images img{width: 100%;}
 
-.section1_images {background-color: white; margin-top: 4%; margin-bottom: 2%; height: 100%;}
+.section1_images {background-color: white; margin-top: 5%; margin-bottom: 2%; height: 100%;}
 
 .section1_images img {text-align: center; 
     background-color: white; 
-    height: 200px; width: 22%; margin-left: 2%; border-radius: 15%; object-fit: cover;
-    padding-top: 3%; padding-bottom: 2%;}
+    height: 200px; width: 22%; margin-left: 2%; border-radius: 20%; object-fit: cover;
+    padding-top: 4%; padding-bottom: 1%;}
     
 .base_image img{width: 100%; margin-bottom: 2%; margin-top: 2%;}
 
