@@ -15,7 +15,7 @@ section {background-color: #22333b; width: 40%; padding-bottom: 1%;}
 .header img {width: 8%; padding-left: 2%;}
 .header p {color: rgb(255, 255, 255);
             background-color: #415a77; 
-            font-size: x-small;}
+            font-size: x-small; margin-bottom: 0%; padding-left: 2%;}
 
 
 /*               MAIN CSS                   */
@@ -28,7 +28,8 @@ main {background-color: rgb(243, 237, 230);  height: 200%;
 main p {color: white;}
 
 .background_images p {text-align: center; background-image:
-    url("assets/bg-image.png");}
+    url("assets/bg-image.png");
+}
 .background_images img{width: 100%;}
 
 .section1_images {background-color: white; margin-top: 4%; margin-bottom: 2%; height: 100%;}
