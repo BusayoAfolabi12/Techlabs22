@@ -32,7 +32,7 @@ main p {color: white;}
 }
 .background_images img{width: 100%;}
 
-.section1_images {background-color: white; margin-top: 5%; margin-bottom: 2%; height: 100%;}
+.section1_images {background-color: white; margin-top: 5%; margin-bottom: 2%; height: 100%; object-fit: cover}
 
 .section1_images img {text-align: center; 
     background-color: white; 
