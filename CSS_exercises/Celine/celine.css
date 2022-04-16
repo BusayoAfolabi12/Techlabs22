@@ -10,7 +10,7 @@ body, html{
   
   .pimg1, .pimg2, .pimg3{
     position:relative;
-    opacity:0.70;
+    opacity:0.90;
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
@@ -48,7 +48,7 @@ body, html{
   }
   
   .section-dark{
-    background-color:#282e34;
+    background-color:#5e503f;
     color:#ddd;
   }
   
@@ -57,15 +57,16 @@ body, html{
     top:50%;
     width:100%;
     text-align:center;
-    color:#000;
-    font-size:27px;
-    letter-spacing:8px;
+    color:#840032;
+    font-size:47px;
+    letter-spacing:10px;
     text-transform:uppercase;
+    
   }
   
   .ptext .border{
     background-color:#111;
-    color:#fff;
+    color:#fefae0;
     padding:20px;
   }
   
