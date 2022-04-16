@@ -1,13 +1,18 @@
 body {background-image: linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)),
     url('berlinpictures/berlin4.jpg');}
 
-nav {background-color: rgb(194, 216, 67); height: 30px;}
+
 
 h1 { color:aliceblue; height: 100px; background-image: linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)), url('berlinpictures/berlin3.jpg');}
 
 h2 , q {color: aliceblue;}
 
- p {color: aliceblue; background-color: rgb(178, 178, 212);}
+ p {color: aliceblue; background-color: rgb(184, 184, 206);}
 
- img {margin-top: 2%; margin-bottom: 2%; padding-left: 25px;
+img {margin-top: 2%; margin-bottom: 2%; padding-left: 25px;
     width: 50%; border-radius: 10%; object-fit: cover;}
+ .png1{
+        min-height: 100%;
+        background-size: cover;
+        object-fit: cover;
+        }
