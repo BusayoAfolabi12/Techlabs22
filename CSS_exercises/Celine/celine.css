@@ -23,17 +23,17 @@ body, html{
   }
   
   .pimg1{
-    background-image:url('pictures/berlin5.webp');
+    background-image:url('https://girlinflorence.com/wp-content/uploads/2012/02/brand-front-of-the-brandenburg-gate-5117579_1920.jpg');
     min-height:100%;
   }
   
   .pimg2{
-    background-image:url('pictures/berlin4.jpg');
+    background-image:url('https://media.gettyimages.com/photos/aerial-skyline-panorama-of-berlin-picture-id956078106?b=1&k=20&m=956078106&s=170667a&w=0&h=pphlOZSj2z-GZqIjPdsrOJCtx1zeokGccpeWsQ4ta8Y=');
     min-height:400px;
   }
   
   .pimg3{
-    background-image:url('pictures/berlin2.jpg');
+    background-image:url('https://www.berlin.de/sen/uvk/_assets/natur-gruen/naturschutz/ausstellungen/natuerlich-berlin/rummelsburger_bucht_copy_dirk_laubner_1000.jpg');
     min-height:400px;
   }
   
@@ -51,6 +51,8 @@ body, html{
     background-color:#5e503f;
     color:#ddd;
   }
+
+  
   
   .ptext{
     position:absolute;
@@ -72,6 +74,48 @@ body, html{
   
   .ptext .border.trans{
     background-color:transparent;
+  }
+
+  .section-gallery{background-color:#fff1e6;
+    color:#ddd; min-height: 400px;}
+
+  .gallerytop {color:#840032; font-size:27px}
+
+  .gallery1, .gallery2, .gallery3, .gallery4,
+  .gallery5, .gallery6, .gallery7, .gallery8
+  {
+    background-color:#f4f4f4;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    border-radius: 3%;
+    opacity:1.5;
+    min-height: 400px; 
+    width: 800px;
+    }
+
+  .gallery1{background-image:url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Olympiastadion_Berlin-Marathontor-msu-2020-3139.jpg')}
+  
+  .gallery2 {background-image:url('https://www.top10berlin.de/sites/top10berlin.de/files/styles/list_image/public/location/mainimages/2014/05/27/fullsize_03_pergamonmuseum_eingang.jpg?itok=XLaYWZJD')}
+
+  .gallery3{background-image: url('https://www.bestlawschools.net/wp-content/uploads/2019/01/Humboldt-University-000020505684_Double.jpg');}
+
+  .gallery4{background-image:url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4f/c2/72/hotel-riu-plaza-berlin.jpg?w=1200&h=-1&s=1');}
+  
+  .gallery5{background-image:url('https://www.planetware.com/photos-large/D/germany-berlin-day-trips-potsdam.jpg')}
+  
+  .gallery6 {background-image:url('https://www.live-production.tv/sites/default/files/styles/original_image_with_copyright/public/deutsches_theater_berlin_deu281525254.jpg?itok=q4RLADHC')}
+
+  .gallery7{background-image: url('https://static.dw.com/image/42935531_401.jpg');}
+
+  .gallery8{background-image:url('https://media.timeout.com/images/101240363/750/422/image.jpg');}
+
+  .gallerytext{
+    width:30%;
+    text-align:left;
+    color:#fdf0d5;
+    font-size:17px;
+    margin-left: 10px;
   }
   
   @media(max-width:568px){
