@@ -1,0 +1,186 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+  }
+  
+
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #495057;
+    width: 100%;
+    height: 80px;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+}
+
+nav > ul {
+    list-style: none;
+}
+
+nav > ul > li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.navlink, button {
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    color: #6c757d;
+}
+
+button {
+    background-color: #adb5bd;
+    border-radius: 7.5px;
+}
+
+button:hover{
+    cursor: pointer;
+    color: #6c757d;
+    background-color: #dee2e6;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+  .pimg1, .pimg2, .pimg3{
+    position:relative;
+    opacity:0.90;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+  
+    /*
+      fixed = parallax
+      scroll = normal
+    */
+    background-attachment:fixed;
+  }
+  
+  .pimg1{
+    background-image:url('https://girlinflorence.com/wp-content/uploads/2012/02/brand-front-of-the-brandenburg-gate-5117579_1920.jpg');
+    min-height:100%;
+  }
+  
+  .pimg2{
+    background-image:url('https://media.gettyimages.com/photos/aerial-skyline-panorama-of-berlin-picture-id956078106?b=1&k=20&m=956078106&s=170667a&w=0&h=pphlOZSj2z-GZqIjPdsrOJCtx1zeokGccpeWsQ4ta8Y=');
+    min-height:400px;
+  }
+  
+  .pimg3{
+    background-image:url('https://www.berlin.de/sen/uvk/_assets/natur-gruen/naturschutz/ausstellungen/natuerlich-berlin/rummelsburger_bucht_copy_dirk_laubner_1000.jpg');
+    min-height:400px;
+  }
+  
+  .section{
+    text-align:center;
+    padding:50px 80px;
+  }
+  
+  .section-light{
+    background-color:#f4f4f4;
+    color:#666;
+  }
+  
+  .section-dark{
+    background-color:#5e503f;
+    color:#ddd;
+  }
+
+  
+  
+  .ptext {
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#840032;
+    font-size:47px;
+    letter-spacing:10px;
+    text-transform:uppercase;
+    
+  }
+  
+  .ptext .border{
+    background-color:#111;
+    color:#fefae0;
+    padding:20px;
+  }
+  
+  .ptext .border.trans{
+    background-color:transparent;
+  }
+
+   .flipimages{
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    background-image: url(img/B2.jpg);
+}
+
+.flip p {
+    color: #adb5bd;
+}
+
+.flip {
+    position: relative;
+    color: #f8f9fa;
+    text-align: center;
+    display: inline-block;
+    margin-right: 2px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.flip > .front {
+    transform: rotateY(0deg);
+}
+
+.flip > .back {
+    background-color: #343a40;
+    position: absolute;
+    transform: rotateY(-180deg);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.flip > .front, 
+.flip > .back {
+    display: block;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: 10s;
+    transition-property: transform;
+    width: 400px;
+    background-size: cover !important;
+    background-position: center;
+    height: 220px;
+    border-radius: 10px;
+    padding: 1em 2em;
+} 
+
+.flip:hover > .front {
+    transform: rotateY(180deg);
+}
+
+.flip:hover > .back {
+    transform: rotateY(0deg);
+    opacity: 1;
+}
