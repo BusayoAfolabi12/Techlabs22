@@ -54,7 +54,7 @@ body, html{
 
   
   
-  .ptext{
+  .ptext {
     position:absolute;
     top:50%;
     width:100%;
@@ -76,22 +76,31 @@ body, html{
     background-color:transparent;
   }
 
-  .section-gallery{background-color:#fff1e6;
-    color:#ddd; min-height: 400px;}
+  .gallerytop{
+    background-color:#794e2e;
+    height: 10%;
+    text-align: center;
+    color:#840032;
+    font-size: 27px;}
 
-  .gallerytop {color:#840032; font-size:27px}
+  .gallerypictures {background-color: #666;
+    height: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;}
 
   .gallery1, .gallery2, .gallery3, .gallery4,
   .gallery5, .gallery6, .gallery7, .gallery8
   {
-    background-color:#f4f4f4;
+    
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
     border-radius: 3%;
-    opacity:1.5;
-    min-height: 400px; 
-    width: 800px;
+    opacity: 1;
+    height: 400px; 
+    width: 900px;
     }
 
   .gallery1{background-image:url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Olympiastadion_Berlin-Marathontor-msu-2020-3139.jpg')}
@@ -111,11 +120,25 @@ body, html{
   .gallery8{background-image:url('https://media.timeout.com/images/101240363/750/422/image.jpg');}
 
   .gallerytext{
-    width:30%;
-    text-align:left;
-    color:#fdf0d5;
-    font-size:17px;
+    width:40%;
+    text-align:center;
+    color:#271d04;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;;
     margin-left: 10px;
+    transition: 4s;
+  }
+  .gallerytext:hover {
+    background-color: #e0d2ee;
+    border-radius: 10%;}
+
+  .imageheader {font-size: 30px;
+    color: #ffffff;
+  font-weight: bold;
+  margin-left: 30px;
+  text-transform:uppercase;
+  
+   
   }
   
   @media(max-width:568px){
