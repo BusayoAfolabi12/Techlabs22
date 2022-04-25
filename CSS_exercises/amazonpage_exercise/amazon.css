@@ -1,6 +1,7 @@
 body
     
         { width:100%;
+        height: 100%;
         margin-left:auto;
         margin-right:auto;
         background-color:black;
@@ -38,7 +39,7 @@ section {background-color: #22333b;
 /*               MAIN CSS                   */
 
 main {background-color: rgb(247, 244, 241);  
-    height: 700px;
+    height: 600px;
     padding-left: 2%; 
     padding-right: 2%; padding-top: 0.7%; 
     padding-bottom: 1%;}
@@ -47,22 +48,52 @@ main {background-color: rgb(247, 244, 241);
     text-align: center;
     font-size: xx-small;}
 
-
-main p {color: white;}
-
-.background_images p {text-align: center; background-image:
+.Holiday {height: 60px; background-image:
     url("assets/bg-image.png");
+    text-align: center;}
+
+.section1_images{background-color: #fff;
+    height: 170px;
+    padding-left: 10px;
+    margin-top: 10px;
 }
-.background_images img{width: 100%;}
+.section1_images p , 
+.section2_images p {width: 100px;
+    padding-top: 5px;
+font-size: 6px;
+font-weight: 600;
+font-family: Arial, Helvetica, sans-serif;}
 
-.section1_images {background-color: white; margin-top: 5%; margin-bottom: 2%; height: 100%; object-fit: cover}
+main span {color: blue;
+padding-left: 4px;}
 
-.section1_images img {text-align: center; 
+
+.section1_images img {height: 140px;
+    width: 110px;
+    padding-right: 4px;
+    border-radius: 7%;
+    object-fit: cover;}
+
+.section2_images {background-color: aquamarine; 
+    height: 170px;
+    }
+
+.section2_images img {height: 140px;
+    object-fit: cover;
+    width: 100%;
+    } 
+ {}
+
+/*.image_section {height: 120px;
+    height: 200px; width: 22%;
+    width: 100%;
     background-color: white; 
-    height: 200px; width: 22%; margin-left: 2%; border-radius: 20%; object-fit: cover;
-    padding-top: 4%; padding-bottom: 1%;}
-    
-.base_image img{width: 100%; margin-bottom: 2%; margin-top: 2%;}
+    margin-top: 5%; 
+    margin-bottom: 2%; 
+    height: 100%; 
+    object-fit: cover}*/
+
+
 
 
 /*               FOOTER CSS                   */
